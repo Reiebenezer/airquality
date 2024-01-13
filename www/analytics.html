@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>AQ</h1>
+    </header>
+
+    <main>
+        <h2>Recent Scans</h2>
+        <div id="myChart" class="chart"></div>
+        <div id="myChart2" class="chart"></div>
+    </main>
+
+    <footer>
+        <section onclick="window.location.href = 'index.html'">
+            <svg width="20" height="10" class="triangle" style="display: none;">
+                <polygon points="0,0 20,0 10,10" />
+            </svg>
+
+            <svg class="circle">
+                <circle cx="50%" cy="50%" r="50%" />
+            </svg>
+            <label for="">Home</label>
+        </section>
+        <section>
+            <svg width="20" height="10" class="triangle">
+                <polygon points="0,0 20,0 10,10" />
+            </svg>
+
+            <svg class="circle" >
+                <circle cx="50%" cy="50%" r="50%" />
+            </svg>
+            <label for="">Analytics</label>
+        </section>
+    </footer>
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
