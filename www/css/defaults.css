@@ -1,0 +1,51 @@
+.bg-primary     { background-color: white }
+.bg-secondary   { background-color: #0d1226}
+.bg-accent      { background-color: #5465ff }
+.bg-accent-2    { background-color: #bfd7ff }
+.bg-placeholder { background-color: #f1f2f4 }
+.bg-gray        { background-color: #929292 }
+
+.bg-state-error { background-color: #e55 }
+.bg-state-active{ background-color: #4dd14d }
+.bg-state-pending{background-color: #eea755 }
+
+.text-primary     { color: white }
+.text-secondary   { color: #0d1226}
+.text-accent      { color: #5465ff }
+.text-accent-2    { color: #bfd7ff }
+.text-placeholder { color: #f1f2f4 }
+.text-gray        { color: #929292 }
+
+.text-state-error { color: #e55 }
+.text-state-active{ color: #4dd14d }
+.text-state-pending{color: #eea755 }
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+.font-title {
+    font-family: 'Playfair Display SC';
+    font-size: 3rem;
+}
+
+.font-body {
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: normal;
+
+    &.bold {
+        font-weight: bold;
+    }
+
+    &.light {
+        font-weight: 300;
+    }
+
+    &.large {
+        font-size: 20px;
+    }
+
+    &.small {
+        font-size: 12px;
+    }
+}
